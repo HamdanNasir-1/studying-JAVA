@@ -14,6 +14,8 @@ public class Conditional_Statements {
         if(a%2==0){
             System.out.println("The value is even");
         }
-        System.out.println("The value is oddd");
+        else{
+            System.out.println("The value is oddd");
+        }
     }
 }
