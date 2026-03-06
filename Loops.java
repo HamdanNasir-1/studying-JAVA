@@ -19,19 +19,19 @@ public class Loops {
         //     System.out.println();
         // }
         // Break and continue
-        int i;
-        int p = 7;
+        // int i;
+        // int p = 7;
 
-        for (i = 2; i < 10; i++) {
-            if (p % i == 0) {
-                System.out.println("The number is not prime");
-                break;
-            }
-        }
+        // for (i = 2; i < 10; i++) {
+        //     if (p % i == 0) {
+        //         System.out.println("The number is not prime");
+        //         break;
+        //     }
+        // }
 
-        if (i == p) {
-            System.out.println("The number is Prime");
-        }
+        // if (i == p) {
+        //     System.out.println("The number is Prime");
+        // }        
     }
 
 }
