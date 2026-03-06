@@ -3,9 +3,9 @@ public class GPT_practice {
     
         int i = 5;
 
-        while(i++<=10){
+        while(i<=10){
             System.out.println(i);
-            
+            i++;
         }
 
         
