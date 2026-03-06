@@ -34,18 +34,33 @@ public class Conditional_Statements {
 
         // A little program
 
-        int i = 50;
+        // int i = 50;
 
-        if (i == 50) {
-            System.out.println("You are and old person");
-        } else if (i == 40) {
-            System.out.println("You are becoming old");
-        } else if (i == 30) {
-            System.out.println("You are a man now");
-        } else if (i == 20) {
-            System.out.println("Ypu just crossed the teen age  ");
-        } else {
-            System.out.println("Jaake mummy ka doodh pio beta");
+        // if (i == 50) {
+        //     System.out.println("You are and old person");
+        // } else if (i == 40) {
+        //     System.out.println("You are becoming old");
+        // } else if (i == 30) {
+        //     System.out.println("You are a man now");
+        // } else if (i == 20) {
+        //     System.out.println("Ypu just crossed the teen age  ");
+        // } else {
+        //     System.out.println("Jaake mummy ka doodh pio beta");
+        // }
+
+        // Switch case..
+
+        int i = 44;
+        switch (i) {
+            case 45:
+                System.out.println("Here it is ...");
+                break;
+            case 44:
+                System.out.println("We found it again");
+                break;
+            default:
+                System.out.println("We did not found anything....");
+                break;
         }
     }
 }
