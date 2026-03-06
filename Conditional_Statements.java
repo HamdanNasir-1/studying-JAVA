@@ -50,13 +50,13 @@ public class Conditional_Statements {
 
         // Switch case..
 
-        int i = 44;
+        char i = 'd';
         switch (i) {
-            case 45:
+            case 'd':
                 System.out.println("Here it is ...");
                 break;
-            case 44:
-                System.out.println("We found it again");
+            case 'f':
+                System.out.println("We found the numberr");
                 break;
             default:
                 System.out.println("We did not found anything....");
