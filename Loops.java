@@ -12,12 +12,25 @@ public class Loops {
         //     System.out.println("Hello hamdan bhai ");
         //     i++;
         // }while(i<5);
-        for (int i = 10; i >= 1; i--) {
-            for (int j = 10; j >= i; j--) {
-                System.out.print("* ");
-                
+        // for (int i = 10; i >= 1; i--) {
+        //     for (int j = 10; j >= i; j--) {
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+        // Break and continue
+        int i;
+        int p = 7;
+
+        for (i = 2; i < 10; i++) {
+            if (p % i == 0) {
+                System.out.println("The number is not prime");
+                break;
             }
-            System.out.println();
+        }
+
+        if (i == p) {
+            System.out.println("The number is Prime");
         }
     }
 
