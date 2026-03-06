@@ -7,7 +7,11 @@ public class GPT_practice {
         //     System.out.println(i);
         //     i++;
         // }
-        
+
+        do{
+            System.out.println("Hello hamdan bhai ");
+            i++;
+        }while(i<5);
         
     }
 }
