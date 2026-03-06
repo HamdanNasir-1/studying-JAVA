@@ -9,6 +9,8 @@ public class GPT_practice {
         else if(num<0){
             System.out.println("Negative number");
         }
-        else{}
+        else{
+            System.out.println("Positive number");
+        }
     }
 }
