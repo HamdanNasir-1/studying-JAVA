@@ -3,14 +3,12 @@ public class GPT_practice {
         
         int num = -1;
 
-        if(num == 0){
-            System.out.println("The number zero");
-        }
-        else if(num<0){
-            System.out.println("Negative number");
+        if(num%2==0){
+            System.out.println("The number is even");
         }
         else{
-            System.out.println("Positive number");
+            System.out.println("The number is Odd");
         }
+        
     }
 }
