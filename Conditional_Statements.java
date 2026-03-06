@@ -56,7 +56,7 @@ public class Conditional_Statements {
                 System.out.println("Here it is ...");
                 break;
             case 'f':
-                System.out.println("We found the numberr");
+                System.out.println("We found the number");
                 break;
             default:
                 System.out.println("We did not found anything....");
