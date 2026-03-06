@@ -1,19 +1,34 @@
 public class GPT_practice {
     public static void main(String[] args) {
     
-        int number = 59;
+        int i = 5;
 
-        if (number >= 90 ){
-            System.out.println("Your grade is A");
-        }
-        else if(number >= 75 ){
-            System.out.println("Your grade is B");
-        }
-        else if(number >= 60){
-            System.out.println("Your grade is C");
-        }
-        else{
-            System.out.println("You failed in exam");
+        switch (i) {
+            case 1:
+                System.out.println("Today is Monday");
+                break;
+            case 2:
+                System.out.println("Today is Tuesday");
+                break;
+            case 3:
+                System.out.println("Today is Wednesday");
+                break;
+            case 4:
+                System.out.println("Today is Thursday");
+                break;
+            case 5:
+                System.out.println("Today is Friday");
+                break;
+            case 6:
+                System.out.println("Today is Saturday");
+                break;
+            case 7:
+                System.out.println("Today is Sunday");
+                break;
+        
+            default:
+                System.out.println("You have entered wrong number");
+                break;
         }
         
     }
