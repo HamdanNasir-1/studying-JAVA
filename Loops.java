@@ -21,17 +21,21 @@ public class Loops {
         // Break and continue
         // int i;
         // int p = 7;
-
         // for (i = 2; i < 10; i++) {
         //     if (p % i == 0) {
         //         System.out.println("The number is not prime");
         //         break;
         //     }
         // }
-
         // if (i == p) {
         //     System.out.println("The number is Prime");
         // }        
+        // for (int i = 1; i <= 10; i++) {
+        //     if (i % 2 == 0) {
+        //         continue;
+        //     }
+        //     System.out.println(i);
+        // }
     }
 
 }
