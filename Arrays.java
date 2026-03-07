@@ -29,10 +29,11 @@ public class Arrays {
         arr[2][0] = 70;
         arr[2][1] = 60;
         arr[2][2] = 70;
+        // System.out.println(arr.length);
 
-        for (int row = 0; row < 3; row++) {
-            for (int col = 0; col < 3; col++) {
-                System.out.print(arr[row][col]+" ");
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[0].length; col++) {
+                System.out.print(arr[row][col] + " ");
             }
             System.out.println();
         }
