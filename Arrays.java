@@ -38,18 +38,19 @@ public class Arrays {
         // }
         int[][] arr = new int[3][];
 
-        arr[0][0] = 12;
-        arr[1][0] = 13;
-        arr[1][1] = 14;
-        arr[2][0] = 15;
-        arr[2][1] = 16;
-        arr[2][2] = 17;
+        // arr[0][0] = 12;
+        // arr[1][0] = 13;
+        // arr[1][1] = 14;
+        // arr[2][0] = 15;
+        // arr[2][1] = 16;
+        // arr[2][2] = 17;
 
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr[0].length; col++) {
-                System.out.print(arr[row][col] + " ");
-            }
-            System.out.println();
-        }
+        // for (int row = 0; row < arr.length; row++) {
+        //     for (int col = 0; col < arr[0].length; col++) {
+        //         System.out.print(arr[row][col] + " ");
+        //     }
+        //     System.out.println();
+        // }
+        // System.out.println(arr[0][0]);
     }
 }
