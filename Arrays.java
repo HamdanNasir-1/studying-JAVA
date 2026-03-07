@@ -31,5 +31,8 @@ public class Arrays {
         arr[2][1] = 60;
         arr[2][2] = 70;
 
+        System.out.println(arr[0][0]);
+        System.out.println(arr[1][0]);
+        System.out.println(arr[2][0]);
     }
 }
