@@ -31,7 +31,9 @@ public class Arrays {
         arr[2][2] = 70;
 
         for (int row = 0; row < 3; row++) {
-            
+            for (int col = 0; col < 3; col++) {
+                
+            }
         }
     }
 }
