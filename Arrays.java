@@ -44,5 +44,7 @@ public class Arrays {
         arr[2][0] = 15;
         arr[2][1] = 16;
         arr[2][2] = 17;
+
+        
     }
 }
