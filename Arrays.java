@@ -12,9 +12,13 @@ public class Arrays {
         // // arr[] = 15;
         // System.out.println("Here is the first array program "+arr[0]);
         // Array using loops :--
-        for (int i = 0; i <= arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = x;
             x++;
         }
+        System.out.println("The first index's value "+arr[0]);
+        System.out.println("The first index's value "+arr[1]);
+        System.out.println("The first index's value "+arr[2]);
+        System.out.println("The first index's value "+arr[3]);
     }
 }
