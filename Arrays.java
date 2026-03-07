@@ -11,13 +11,13 @@ public class Arrays {
         // arr[3] = 15;
         // // arr[] = 15;
         // System.out.println("Here is the first array program "+arr[0]);
-        // Array using loops :--
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = x;
-            x++;
-        }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("The value for index "+i+" is "+arr[i]);
-        }
+        // --:Array using loops :--
+    //     for (int i = 0; i < arr.length; i++) {
+    //         arr[i] = x;
+    //         x++;
+    //     }
+    //     for (int i = 0; i < arr.length; i++) {
+    //         System.out.println("The value for index "+i+" is "+arr[i]);
+    //     }
     }
 }
