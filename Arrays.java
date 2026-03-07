@@ -27,7 +27,7 @@ public class Arrays {
         // arr[1][1] = 40;
         // arr[1][2] = 60;
         // arr[2][0] = 70;
-        // arr[2][1] = 60;
+        // arr[2][1] = 60
         // arr[2][2] = 70;
         // // System.out.println(arr.length);
 
