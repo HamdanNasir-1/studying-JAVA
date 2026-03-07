@@ -9,11 +9,14 @@ public class Method_Chaining {
 
     static void greet1(){
         System.out.println("Apka swagat hai");
-        name("Hamdan");
+        name();
         greet2();
     }
-    static void name(String name){
-        System.out.println(name);
+    static void name(){
+        System.out.print("Hamdan ");
     }
-    
+
+    static void greet2(){
+        System.out.println("Bhaiyyya");
+    }
 }
