@@ -16,9 +16,8 @@ public class Arrays {
             arr[i] = x;
             x++;
         }
-        System.out.println("The first index's value "+arr[0]);
-        System.out.println("The first index's value "+arr[1]);
-        System.out.println("The first index's value "+arr[2]);
-        System.out.println("The first index's value "+arr[3]);
+        for (int i = 0; i < arr.length; i++) {
+            
+        }
     }
 }
