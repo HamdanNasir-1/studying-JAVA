@@ -17,7 +17,7 @@ public class Arrays {
             x++;
         }
         for (int i = 0; i < arr.length; i++) {
-            
+            System.out.println("The value for index "+i+" is "+arr[i]);
         }
     }
 }
