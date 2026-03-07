@@ -1,4 +1,4 @@
-public class Coversion {
+public class Conversion {
     public static void main(String[] args) {
         int a = 300 ;
         byte h ;
