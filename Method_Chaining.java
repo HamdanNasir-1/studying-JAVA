@@ -3,10 +3,17 @@ public class Method_Chaining {
         greet();
     }
     static void greet(){
-        name("Hamdan");
+        System.out.println("Hello");
+        greet1();
     }
 
-    static void name(String name){
-        
+    static void greet1(){
+        System.out.println("Apka swagat hai");
+        name("Hamdan");
+        greet2();
     }
+    static void name(String name){
+        System.out.println(name);
+    }
+    
 }
