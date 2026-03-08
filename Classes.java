@@ -3,7 +3,11 @@ public class Classes {
         Student s1 = new Student();
 
         s1.name = "Hamdan";
-        System.out.println(s1.name);
+        s1.age = 23;
+        s1.rollNumber= 406;
+        s1.college= "Integral University Lucknow";
+        // System.out.println(s1.name);
+        
     }
 }
 
