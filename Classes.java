@@ -3,3 +3,9 @@ public class Classes {
         
     }
 }
+
+class Student{
+    String name;
+    int age;
+    int rollNumber;
+}
