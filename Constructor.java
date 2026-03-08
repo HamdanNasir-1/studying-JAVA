@@ -17,5 +17,11 @@ class Student{
     int age;
     int rollNumber;
     String college;
-    
+
+    Student(){
+        name = "Hamdan";
+        age = 34;
+        rollNumber = 788;
+        name = "Padrrauna University";
+    }
 }
