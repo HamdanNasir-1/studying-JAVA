@@ -12,16 +12,16 @@ public class Constructor {
         System.out.println(s1.college);
     }
 }
-class Student{
-    String name;
-    int age;
-    int rollNumber;
-    String college;
+// class Student{
+//     String name;
+//     int age;
+//     int rollNumber;
+//     String college;
 
-    Student(){
-        name = "Hamdan";
-        age = 34;
-        rollNumber = 788;
-        name = "Padrrauna University";
-    }
-}
+//     Student(){
+//         name = "Hamdan";
+//         age = 34;
+//         rollNumber = 788;
+//         name = "Padrrauna University";
+//     }
+// }
