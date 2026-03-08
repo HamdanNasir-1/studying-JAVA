@@ -17,5 +17,5 @@ class Student{
     int age;
     int rollNumber;
     String college;
-
+    
 }
