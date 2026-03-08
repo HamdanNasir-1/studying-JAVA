@@ -12,6 +12,7 @@ public class Constructor {
         System.out.println(s1.college);
     }
 }
+// Default constructor or normal constructor 
 // class Student{
 //     String name;
 //     int age;
@@ -25,6 +26,7 @@ public class Constructor {
 //         name = "Padrrauna University";
 //     }
 // }
+// :--- Parameterized constructor
 class Student{
     String name;
     int age;
