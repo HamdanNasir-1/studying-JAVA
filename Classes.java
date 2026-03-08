@@ -7,7 +7,7 @@ public class Classes {
         s1.rollNumber= 406;
         s1.college= "Integral University Lucknow";
         // System.out.println(s1.name);
-        
+        s1.markAttandence();
     }
 }
 
