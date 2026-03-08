@@ -22,6 +22,6 @@ class Student{
         System.out.println("Attendance marked by :"+" "+name);
     }  
     void printDetails(){
-        System.out.println("Name: "+name+" Age: "+age+"Rollnumber: "+rollNumber+"College: "+college);
+        System.out.println("Name: "+name+" Age: "+age+" Rollnumber: "+rollNumber+" College: "+college);
     }
 }
