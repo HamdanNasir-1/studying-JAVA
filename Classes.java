@@ -9,5 +9,8 @@ class Student{
     int age;
     int rollNumber;
     String college;
-    
+
+    void markAttandence(){
+        System.out.println("Attendance marked by :"+name);
+    }  
 }
