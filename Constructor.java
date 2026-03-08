@@ -1,6 +1,6 @@
 public class Constructor {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Student s1 = new Student("Hamdan",34,344,"Inetgral");
 
         // s1.name = "Hamdan";
         // s1.age= 34;
@@ -25,3 +25,16 @@ public class Constructor {
 //         name = "Padrrauna University";
 //     }
 // }
+class Student{
+    String name;
+    int age;
+    int rollNumber;
+    String college;
+
+    Student(String n,int a , int roll,String col){
+        name = n;
+        age = a;
+        rollNumber = roll;
+        college = col;
+    }
+}
