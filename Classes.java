@@ -13,4 +13,7 @@ class Student{
     void markAttandence(){
         System.out.println("Attendance marked by :"+name);
     }  
+    void printDetails(){
+        System.out.println(name+","+age+","+rollNumber+","+college);
+    }
 }
