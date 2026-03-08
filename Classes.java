@@ -8,6 +8,7 @@ public class Classes {
         s1.college= "Integral University Lucknow";
         // System.out.println(s1.name);
         s1.markAttandence();
+        s1.printDetails();
     }
 }
 
@@ -18,9 +19,9 @@ class Student{
     String college;
 
     void markAttandence(){
-        System.out.println("Attendance marked by :"+name);
+        System.out.println("Attendance marked by :"+" "+name);
     }  
     void printDetails(){
-        System.out.println(name+","+age+","+rollNumber+","+college);
+        System.out.println("Name: "+name+" Age: "+age+"Rollnumber: "+rollNumber+"College: "+college);
     }
 }
