@@ -1,4 +1,6 @@
+
 public class Constructor {
+
     public static void main(String[] args) {
         Student s1 = new Student();
 
@@ -6,12 +8,12 @@ public class Constructor {
         // s1.age= 34;
         // s1.rollNumber = 5004;
         // s1.name = "Integral University";
-        System.out.println("The name is "+s1.name);
-        System.out.println("The age is "+s1.age);
-        System.out.println("The rollnumber is "+s1.rollNumber);
-        System.out.println("The college name is "+s1.college);
+        System.out.println("The name is " + s1.name);
+        System.out.println("The age is " + s1.age);
+        System.out.println("The rollnumber is " + s1.rollNumber);
+        System.out.println("The college name is " + s1.college);
     }
-}      
+}
 // Default constructor or normal constructor 
 // class Student{
 //     String name;
@@ -27,31 +29,35 @@ public class Constructor {
 //     }
 // }
 // :--- Parameterized constructor
-class Student{
+class Student {
+
     String name;
     int age;
     int rollNumber;
     String college;
 
-    Student (){
-        
-    }
-    Student (){
-        
+    Student() {
+
     }
 
-    Student(String name,int age  ){
+    Student(String name) {
+        this.name = name;
+    }
+
+    Student(String name, int age) {
         this.name = name;
         this.age = age;
-        
+
     }
-    Student(String name,int age,int rollNumber){
+
+    Student(String name, int age, int rollNumber) {
         this.name = name;
         this.age = age;
         this.rollNumber = rollNumber;
-        
+
     }
-    Student(String name,int age , int rollNumber,String college){
+
+    Student(String name, int age, int rollNumber, String college) {
         this.name = name;
         this.age = age;
         this.rollNumber = rollNumber;
