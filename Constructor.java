@@ -38,8 +38,8 @@ class Student{
     }
 
     Student(String nname,int age , int rollNumber,String college){
-        name = name;
-        age = age;
+        this.name = name;
+        this.age = age;
         rollNumber = rollNumber;
         college = college;
     }
