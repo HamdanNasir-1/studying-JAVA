@@ -40,7 +40,7 @@ class Student{
     Student(String nname,int age , int rollNumber,String college){
         this.name = name;
         this.age = age;
-        rollNumber = rollNumber;
+        this.rollNumber = rollNumber;
         college = college;
     }
 }
