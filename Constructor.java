@@ -37,10 +37,10 @@ class Student{
         
     }
 
-    Student(String nname,int age , int rollNumber,String college){
+    Student(String name,int age , int rollNumber,String college){
         this.name = name;
         this.age = age;
         this.rollNumber = rollNumber;
-        college = college;
+        this.college = college;
     }
 }
