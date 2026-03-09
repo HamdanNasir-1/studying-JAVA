@@ -33,6 +33,10 @@ class Student{
     int rollNumber;
     String college;
 
+    Student (){
+        
+    }
+
     Student(String n,int a , int roll,String col){
         name = n;
         age = a;
