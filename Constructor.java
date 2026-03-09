@@ -36,13 +36,10 @@ class Student{
     Student (){
         
     }
-
-    Student(String name,int age , int rollNumber,String college){
-        this.name = name;
-        this.age = age;
-        this.rollNumber = rollNumber;
-        this.college = college;
+    Student (){
+        
     }
+
     Student(String name,int age  ){
         this.name = name;
         this.age = age;
@@ -53,5 +50,11 @@ class Student{
         this.age = age;
         this.rollNumber = rollNumber;
         
+    }
+    Student(String name,int age , int rollNumber,String college){
+        this.name = name;
+        this.age = age;
+        this.rollNumber = rollNumber;
+        this.college = college;
     }
 }
