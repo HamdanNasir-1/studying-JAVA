@@ -11,7 +11,7 @@ public class Constructor {
         System.out.println("The rollnumber is "+s1.rollNumber);
         System.out.println("The college name is "+s1.college);
     }
-}      ksjbd
+}      ksjb
 // Default constructor or normal constructor 
 // class Student{
 //     String name;
