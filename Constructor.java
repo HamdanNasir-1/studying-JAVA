@@ -5,7 +5,7 @@ public class Constructor {
         Student s1 = new Student();
         Student s2 = new Student("Hamdan");
         Student s3 = new Student("Hamdan",23);
-        Student s4 = new Student("Hamdan",34,34,"Integral University");
+        Student s4 = new Student("Hamdan",34,3409,"Integral University");
 
         // s1.name = "Hamdan";
         // s1.age= 34;
