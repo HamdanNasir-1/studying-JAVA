@@ -53,18 +53,18 @@ class Student {
     }
     
     Student(String name, int age, int rollNumber) {
-        this(name,age,rollNumber,"Unknown");
-        // this.name = name;
-        // this.age = age;
-        // this.rollNumber = rollNumber;
+        // this(name,age,rollNumber,"Unknown");
+        this.name = name;
+        this.age = age;
+        this.rollNumber = rollNumber;
         
     }
     
     Student(String name, int age, int rollNumber, String college) {
-        this(name,age,rollNumber,college);
-        // this.name = name;
-        // this.age = age;
-        // this.rollNumber = rollNumber;
-        // this.college = college;
+        // this(name,age,rollNumber,college);
+        this.name = name;
+        this.age = age;
+        this.rollNumber = rollNumber;
+        this.college = college;
     }
 }
