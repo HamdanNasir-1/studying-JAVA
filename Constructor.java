@@ -44,10 +44,11 @@ class Student {
         this(name,0,0,"Unknown");
         // this.name = name;
     }
-
+    
     Student(String name, int age) {
-        this.name = name;
-        this.age = age;
+        this(name,age,0,"Unknown");
+        // this.name = name;
+        // this.age = age;
 
     }
 
