@@ -22,4 +22,9 @@ class Student {
         this.name = name;
         this.age = age;
     }
+    Student(String name, int age,int rollNumber) {
+        this.name = name;
+        this.age = age;
+        this.rollNumber;
+    }
 }
