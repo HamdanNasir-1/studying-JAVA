@@ -46,9 +46,9 @@ class Student {
     }
     
     Student(String name, int age) {
-        this(name,age,0,"Unknown");
-        // this.name = name;
-        // this.age = age;
+        // this(name,age,0,"Unknown");
+        this.name = name;
+        this.age = age;
         
     }
     
