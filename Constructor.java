@@ -37,11 +37,12 @@ class Student {
     String college;
 
     Student() {
-        
+        this("Unknown",0,0,"Unknown");
     }
-
+    
     Student(String name) {
-        this.name = name;
+        this("Unknown",0,0,"Unknown");
+        // this.name = name;
     }
 
     Student(String name, int age) {
