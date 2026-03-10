@@ -49,13 +49,14 @@ class Student {
         this(name,age,0,"Unknown");
         // this.name = name;
         // this.age = age;
-
+        
     }
-
+    
     Student(String name, int age, int rollNumber) {
-        this.name = name;
-        this.age = age;
-        this.rollNumber = rollNumber;
+        this(name,age,rollNumber,"Unknown");
+        // this.name = name;
+        // this.age = age;
+        // this.rollNumber = rollNumber;
 
     }
 
