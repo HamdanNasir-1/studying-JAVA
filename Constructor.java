@@ -1,6 +1,6 @@
 public class Constructor {
     public static void main(String[] args) {
-        
+        Student s1 = new Student("Hamdan");
     }
 }
 
@@ -10,7 +10,7 @@ class Student{
     int rollNumber;
     String college;
 
-    Student(){
+    Student(String name){
         this.name = name;
     }
 }
