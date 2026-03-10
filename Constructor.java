@@ -41,7 +41,7 @@ class Student {
     }
     
     Student(String name) {
-        this("Unknown",0,0,"Unknown");
+        this(name,0,0,"Unknown");
         // this.name = name;
     }
 
