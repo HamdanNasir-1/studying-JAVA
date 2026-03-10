@@ -61,9 +61,10 @@ class Student {
     }
     
     Student(String name, int age, int rollNumber, String college) {
-        this.name = name;
-        this.age = age;
-        this.rollNumber = rollNumber;
-        this.college = college;
+        this(name,age,rollNumber,college);
+        // this.name = name;
+        // this.age = age;
+        // this.rollNumber = rollNumber;
+        // this.college = college;
     }
 }
