@@ -37,7 +37,7 @@ class Student {
     String college;
 
     Student() {
-
+        
     }
 
     Student(String name) {
