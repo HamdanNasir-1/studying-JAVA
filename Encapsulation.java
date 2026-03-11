@@ -4,7 +4,8 @@ public class Encapsulation {
     public static void main(String[] args) {
         Bank bank = new Bank();
         bank.deposit(400);
-        bank.withdraw(400);
+        bank.withdraw(66);
+        bank.getBalance();
     }
 }
 
@@ -14,15 +15,19 @@ class Bank {
 
     public void deposit(int Amount) {
         balance += Amount;
-        System.out.println(Amount+" Deposited succesfully");
+        System.out.println(Amount + " Deposited succesfully");
     }
 
     public void withdraw(int Amount) {
-        balance -= Amount;
-        System.out.println(Amount+" Withdrawn succesfully");
+        if (balance < Amount) {
+            System.out.println("Insufficient balance.....");
+        } else {
+            balance -= Amount;
+            System.out.println(Amount + " Withdrawn succesfully");
+        }
     }
 
-    public double getBalance() {
-        return balance;
+    public void getBalance() {
+        System.out.println("You have : "+balance+" rs");
     }
 }
