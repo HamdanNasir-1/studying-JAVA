@@ -16,5 +16,8 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-    
+
+    void RunsOn() {
+        System.out.println("Car runs on fuel...");
+    }
 }
