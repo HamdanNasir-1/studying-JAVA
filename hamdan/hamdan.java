@@ -2,7 +2,7 @@ package hamdan;
 
 public class hamdan {
 
-    void printName() {
+    public void printName() {
         System.out.println("This is hamdan's package");
     }
 }
