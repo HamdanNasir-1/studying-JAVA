@@ -1,5 +1,8 @@
 import papa.hamdan;
+
 public class Package {
-    hamdan s1 = new hamdan();
-    
+    public static void main(String[] args) {
+        hamdan s1 = new hamdan();
+        s1.printName();
+    }
 }
