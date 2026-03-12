@@ -1,13 +1,18 @@
 public class Inheritance {
     public static void main(String[] args) {
-        Vehicle s1 = new Vehicle();
-        s1.start();
-
+        Vehicle v1 = new Vehicle();
+        v1.start();
+        Car c1 = new Car();
+        c1.start();
+        c1.RunsOn();
     }
 }
 
 class Vehicle {
-    String name;
+
+    // Vehicle(String name) {
+    //     this.name = name;
+    // }
 
     void start() {
         System.out.println("GGGHHHrrrrrrrrrr");
