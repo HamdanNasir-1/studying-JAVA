@@ -16,4 +16,15 @@ abstract class Car {
 
 class fuelCar extends Car {
     
+    void start() {
+
+    }
+
+    void accelerate() {
+
+    }
+
+    void brake() {
+
+    }
 }
