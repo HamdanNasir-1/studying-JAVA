@@ -11,3 +11,19 @@ interface Car {
 
     void brake();
 }
+
+class electricCar implements Car {
+    public void Start(){
+        System.out.println("The Electric car is started....");
+    }
+    
+    public void accelerattion(){
+        
+        System.out.println("The Electric car is started....");
+    }
+    
+    public void brake(){
+        
+        System.out.println("The Electric car is started....");
+    }
+}
