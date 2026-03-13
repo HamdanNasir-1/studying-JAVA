@@ -4,5 +4,7 @@ public class AbstractClass {
     }
 }
 class Car{
-    
+    void start(){
+        
+    }
 }
