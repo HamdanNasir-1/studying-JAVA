@@ -9,4 +9,7 @@ class Car {
         System.out.println("The car is starting");
     }
 
+    void accelerate(){
+        
+    }
 }
