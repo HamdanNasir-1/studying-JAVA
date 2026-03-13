@@ -15,16 +15,17 @@ abstract class Car {
 }
 
 class fuelCar extends Car {
-    
-    void start() {
 
+    void start() {
+        System.out.println("The fuel car started");
     }
 
     void accelerate() {
-
+        System.out.println("The fuel car accelerated at 30km/h");
     }
 
     void brake() {
+        System.out.println("The fuel car is stopping");
 
     }
 }
