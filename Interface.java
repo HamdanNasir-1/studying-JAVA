@@ -19,11 +19,11 @@ class electricCar implements Car {
     
     public void accelerattion(){
         
-        System.out.println("The Electric car is started....");
+        System.out.println("The Electric car has accelerated on 40km/h....");
     }
     
     public void brake(){
         
-        System.out.println("The Electric car is started....");
+        System.out.println("The Electric car is stopping....");
     }
 }
