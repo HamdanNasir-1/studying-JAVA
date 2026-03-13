@@ -5,16 +5,10 @@ public class AbstractClass {
     }
 }
 
-class Car {
-    void start() {
-        System.out.println("The car is starting");
-    }
+abstract class Car {
+    abstract void start();
 
-    void accelerate(){
-        System.out.println("The is accelerated at 20km/h");
-    }
+    abstract void accelerate();
 
-    void brake(){
-        System.out.println("The car is stopping");
-    }
+    abstract void brake();
 }
