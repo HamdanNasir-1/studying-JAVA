@@ -4,7 +4,12 @@ public class Interface {
         Ec.Start();
         Ec.accelerattion();
         Ec.brake();
-    }
+        System.out.println("");
+        Car Fc = new fuelCar();
+        Fc.Start();
+        Fc.accelerattion();
+        Fc.brake();
+}
 }
 
 interface Car {
