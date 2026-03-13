@@ -9,7 +9,7 @@ public class Interface {
         Fc.Start();
         Fc.accelerattion();
         Fc.brake();
-}
+    }
 }
 
 interface Car {
@@ -35,6 +35,7 @@ class electricCar implements Car {
         System.out.println("The Electric car is stopping....");
     }
 }
+
 class fuelCar implements Car {
     public void Start() {
         System.out.println("The Fuel_Car car is started....");
