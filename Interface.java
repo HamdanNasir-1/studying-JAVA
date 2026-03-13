@@ -3,3 +3,8 @@ public class Interface {
 
     }
 }
+interface Car{
+    void Start();
+    void accelerattion();
+    void brake();
+}
