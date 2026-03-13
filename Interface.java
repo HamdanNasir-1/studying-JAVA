@@ -30,3 +30,18 @@ class electricCar implements Car {
         System.out.println("The Electric car is stopping....");
     }
 }
+class fuelCar implements Car {
+    public void Start() {
+        System.out.println("The Fuel_Car car is started....");
+    }
+
+    public void accelerattion() {
+
+        System.out.println("The Fuel_Car car has accelerated on 40km/h....");
+    }
+
+    public void brake() {
+
+        System.out.println("The Fuel_Car car is stopping....");
+    }
+}
