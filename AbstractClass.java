@@ -36,7 +36,7 @@ class fuelCar extends Car {
 class eCar extends Car {
 
     void start() {
-        System.out.println("The Electric car car is starting");
+        System.out.println("The Electric car car is started");
 
     }
 
