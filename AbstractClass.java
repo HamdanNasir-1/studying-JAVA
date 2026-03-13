@@ -6,9 +6,14 @@ public class AbstractClass {
 }
 
 abstract class Car {
+
     abstract void start();
 
     abstract void accelerate();
 
     abstract void brake();
+}
+
+class fuelCar extends Car {
+    
 }
