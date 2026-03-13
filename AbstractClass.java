@@ -12,4 +12,8 @@ class Car {
     void accelerate(){
         System.out.println("The is accelerated at 20km/h");
     }
+
+    void brake(){
+        
+    }
 }
