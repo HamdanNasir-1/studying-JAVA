@@ -1,6 +1,9 @@
 public class Interface {
     public static void main(String[] args) {
         Car Ec = new electricCar();
+        Ec.Start();
+        Ec.accelerattion();
+        Ec.brake();
     }
 }
 
