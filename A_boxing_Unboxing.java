@@ -14,5 +14,7 @@ public class A_boxing_Unboxing {
         // System.out.println(d);
     }
 
-    
+    static void printer(Integer x){
+        System.out.println(x);
+    }
 }
