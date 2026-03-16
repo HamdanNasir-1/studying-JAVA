@@ -7,10 +7,12 @@ public class A_boxing_Unboxing {
         // System.out.println(a);
         // System.out.println(b);  //Unboxing  
 
-        Integer s = 10;
-        int d = 10;
+        // Integer s = 10;
+        // int d = 10;
 
-        System.out.println(s);
-        System.out.println(d);
+        // System.out.println(s);
+        // System.out.println(d);
     }
+
+    
 }
