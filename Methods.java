@@ -52,5 +52,5 @@ public class Methods {
 
     static void greet(int age, String name) {
         System.out.println("Hello " + name + " of age " + age);
-    }sjdfhowehfiwhef
+    }sjdfhowehfiwhe
 }
