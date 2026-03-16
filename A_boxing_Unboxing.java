@@ -5,18 +5,18 @@ public class A_boxing_Unboxing {
         // Integer b = a;
 
         // System.out.println(a);
-        // System.out.println(b);  //Unboxing  
+        // System.out.println(b); //Unboxing
 
         // Integer s = 10;
         // int d = 10;
 
         // System.out.println(s);
         // System.out.println(d);
-        int a = 67;
+        Integer a = 67;
         printer(a);
     }
 
-    static void printer(Integer x){
+    static void printer(int x) {
         System.out.println(x);
     }
 }
