@@ -5,6 +5,6 @@ public class A_boxing_Unboxing {
         Integer b = a;
 
         System.out.println(a);
-        System.out.println(b.intValue());  //Unboxing
+        System.out.println(b);  //Unboxing
     }
 }
