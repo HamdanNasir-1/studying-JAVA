@@ -3,5 +3,8 @@ public class A_boxing_Unboxing {
         // Autoboxing :---
         int a = 10;
         Integer b = a;
+
+        System.out.println(a);
+        System.out.println(b);  //Unboxing
     }
 }
