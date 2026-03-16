@@ -12,6 +12,8 @@ public class A_boxing_Unboxing {
 
         // System.out.println(s);
         // System.out.println(d);
+        int a = 67;
+        printer(a);
     }
 
     static void printer(Integer x){
