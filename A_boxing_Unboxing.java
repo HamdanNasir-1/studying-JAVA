@@ -9,5 +9,8 @@ public class A_boxing_Unboxing {
 
         Integer s = 10;
         int d = 10;
+
+        System.out.println(s);
+        System.out.println(d);
     }
 }
