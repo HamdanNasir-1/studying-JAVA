@@ -7,7 +7,7 @@ public class Methods {
         //     NamsSayer("Hamdan");
         //     System.out.println(Output());
         //     System.out.println(Multiplier(2,4));
-        // Method ovweloading
+        // Method overloading
         System.out.println(Sum(2, 3));
         System.out.println(Sum(2, 3, 6));
         System.out.println(Sum(3.141592653589793, 3));
@@ -33,7 +33,7 @@ public class Methods {
     //     return (a*b);
     // }
 
-    // Method ovweloading
+    // Method overloading
     static int Sum(int a, int b) {
         return a * b;
     }
@@ -52,5 +52,5 @@ public class Methods {
 
     static void greet(int age, String name) {
         System.out.println("Hello " + name + " of age " + age);
-    }
+    }sjdfhowehfiwhefjkw
 }
