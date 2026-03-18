@@ -19,5 +19,5 @@ public class A_boxing_Unboxing {
     static void printer(int x) {
         System.out.println(x);
     }
-    
+
 }
