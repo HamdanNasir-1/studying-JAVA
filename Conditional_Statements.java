@@ -1,7 +1,7 @@
 
 public class Conditional_Statements {
 
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
         // int a = 7;
         // if(a==5){
 

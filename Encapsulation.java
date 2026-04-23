@@ -1,7 +1,7 @@
 
 public class Encapsulation {
 
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
         Bank bank = new Bank();
         bank.deposit(400);
         bank.withdraw(66);

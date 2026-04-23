@@ -1,5 +1,5 @@
 public class AbstractClass {
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
         Car fCar = new fuelCar();
         Car eCar = new eCar();
         fCar.start();

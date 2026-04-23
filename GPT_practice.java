@@ -1,5 +1,5 @@
 public class GPT_practice {
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
     
         int i = 5;
 

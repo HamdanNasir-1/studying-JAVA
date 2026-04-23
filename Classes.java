@@ -1,5 +1,5 @@
 public class Classes {
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
         Student s1 = new Student();
 
         s1.name = "Hamdan";
@@ -13,10 +13,10 @@ public class Classes {
 }
 
 class Student{
-    String name;
+    Strings1 name;
     int age;
     int rollNumber;
-    String college;
+    Strings1 college;
 
     void markAttandence(){
         System.out.println("Attendance marked by :"+" "+name);

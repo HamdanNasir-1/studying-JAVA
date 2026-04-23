@@ -1,5 +1,5 @@
 public class DataTypes {
-     public static void main(String[] args) {
+     public static void main(Strings1[] args) {
 
         int num1 = 23;
         short num2 = 10;

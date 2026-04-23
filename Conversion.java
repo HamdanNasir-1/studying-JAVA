@@ -1,5 +1,5 @@
 public class Conversion {
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
         int a = 300 ;
         byte h ;
 

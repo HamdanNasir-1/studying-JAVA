@@ -1,7 +1,7 @@
 
 public class Methods {
 
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
 
         //     NoINPOP ();
         //     NamsSayer("Hamdan");
@@ -46,11 +46,11 @@ public class Methods {
         return (int) (d * f);
     }
 
-    static void greet(String name, int age) {
+    static void greet(Strings1 name, int age) {
         System.out.println("Hello " + name + " of age " + age);
     }
 
-    static void greet(int age, String name) {
+    static void greet(int age, Strings1 name) {
         System.out.println("Hello " + name + " of age " + age);
     } 
 }

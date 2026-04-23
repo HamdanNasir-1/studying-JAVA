@@ -1,5 +1,5 @@
 public class Method_Chaining {
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
         greet();
     }
     static void greet(){

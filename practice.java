@@ -1,5 +1,5 @@
 public class practice {
-    public static void main(String[] args) {
+    public static void main(Strings1[] args) {
         byte b = 65;
         int i;
         i = b;
