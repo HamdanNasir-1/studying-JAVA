@@ -12,11 +12,13 @@ public class Strings2 {
 
         // System.out.println(s3);
 
-        char arr[] = {'H','a','m','d','a','n'};
-        String s5 = new String(arr);
+        char arr[] = {'H','a','m','d','a','n',' ','N','a','s','i','r'};
+        // String s5 = new String(arr);
 
+        // System.out.println(s5);
+
+        String s5 = new String(arr,0,7);
         System.out.println(s5);
-
 
     }
 }
