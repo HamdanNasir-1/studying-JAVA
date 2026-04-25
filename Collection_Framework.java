@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 public class Collection_Framework {
     public static void main(String[] args) {
@@ -9,5 +9,11 @@ public class Collection_Framework {
         list.add("Arsalan");
         list.add("Shoaib");
         list.add("Rehan");
+
+        Iterator<String> it = list.iterator();
+
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
     }
 }
