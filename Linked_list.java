@@ -1,4 +1,5 @@
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Linked_list {
@@ -10,5 +11,11 @@ public class Linked_list {
         list.add(87);
         list.add(98);
         list.add(90);
+
+        Iterator<Integer> it = list.iterator();
+
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
     }
 }
