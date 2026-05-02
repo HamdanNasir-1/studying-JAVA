@@ -1,0 +1,24 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class Java8Features {
+    public static void main(String[] args) {
+        // List<Integer> nums = Arrays.asList();
+
+        // nums.add(1);
+        // nums.add(3);
+        // nums.add(5);
+        // nums.add(6);
+        // nums.add(2);
+
+        // List<Integer> result = nums.stream()
+        // .filter(n->n%2==0);
+        List<Integer> nums = Arrays.asList(1, 2, 3, 4);
+
+        List<Integer> result = nums.stream()
+                .map(n->n*2)    
+                .toList();
+
+        System.out.println(result);
+    }
+}
