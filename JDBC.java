@@ -8,7 +8,7 @@ public class JDBC{
 
         try {
             // 1. connect sql
-            Connection con =  DriverManager.getConnection(url,user,password);
+            Connection con = DriverManager.getConnection(url,user,password);
 
             // 2. Statement
             PreparedStatement ps = con.prepareStatement("SELECT * FROM student");
